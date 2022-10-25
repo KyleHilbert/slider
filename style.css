@@ -2,8 +2,59 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-image: radial-gradient(
+    circle,
+    #c27e15,
+    #be7e1f,
+    #b97d28,
+    #b57d2f,
+    #b07c36,
+    #a97837,
+    #a37438,
+    #9c7039,
+    #916835,
+    #865f31,
+    #7c572e,
+    #714f2a
+  );
+}
 
-img {
+.mainContainer {
+  width: 70%;
+  height: 817px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.backContainer,
+.nextContainer {
+  display: flex;
+  align-items: center;
+
+  width: 15%;
+  height: 100px;
+}
+
+.arrows {
+  width: 15%;
+  height: auto;
+}
+
+#backImage,
+#nextImage {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.images {
   width: auto;
   height: 200px;
 }
