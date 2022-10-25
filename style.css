@@ -63,7 +63,7 @@ body {
 .image {
   display: none;
   height: auto;
-  animation: fadeIn 4s;
+  animation: fadeIn 3s;
 }
 
 .image.start {
