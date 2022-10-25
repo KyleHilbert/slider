@@ -33,13 +33,14 @@ body {
 .nextContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  width: 15%;
+  width: 5%;
   height: 100px;
 }
 
 .arrows {
-  width: 15%;
+  width: 20px;
   height: auto;
 }
 
@@ -55,15 +56,25 @@ body {
 }
 
 .images {
-  width: auto;
+  width: 300px;
   height: 200px;
 }
 
 .image {
   display: none;
   height: auto;
+  animation: fadeIn 4s;
 }
 
 .image.start {
   display: initial;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
