@@ -9,13 +9,31 @@
     <title>Slider attempt</title>
   </head>
   <body>
-    <div class="image start"><img src="images/pumpkin1.jpg" alt="" /></div>
-    <div class="image"><img src="images/pumpkin2.jpg" alt="" /></div>
-    <div class="image"><img src="images/pumpkin3.jpg" alt="" /></div>
-    <div class="image"><img src="images/pumpkin4.jpg" alt="" /></div>
-    <div class="buttons">
-      <button id="nextImage">NEXT</button>
-      <button id="backImage">BACK</button>
+    <div class="mainContainer">
+      <div class="backContainer">
+        <button id="backImage">
+          <img class="arrows" src="images/left.png" alt="" />
+        </button>
+      </div>
+      <div class="imageContainer">
+        <div class="image start">
+          <img class="images" src="images/pumpkin1.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img class="images" src="images/pumpkin2.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img class="images" src="images/pumpkin3.jpg" alt="" />
+        </div>
+        <div class="image">
+          <img class="images" src="images/pumpkin4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="nextContainer">
+        <button id="nextImage">
+          <img class="arrows" src="images/right.png" alt="" />
+        </button>
+      </div>
     </div>
   </body>
 </html>
